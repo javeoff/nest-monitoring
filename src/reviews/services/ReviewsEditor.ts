@@ -1,6 +1,6 @@
 import { Injectable } from "@nestjs/common";
 import { InjectKnex, Knex } from 'nestjs-knex';
-import MathUtils from '../../utils/math'
+import MathUtils from '../../utils/time'
 
 const qs = require('querystring')
 
