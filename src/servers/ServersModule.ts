@@ -6,7 +6,7 @@ import { ServersFinder } from "./services/serversFinder";
 @Module({
     providers: [
         ServersCreator,
-        ServersFinder
+        ServersFinder,
     ],
     controllers: [
         ServersController

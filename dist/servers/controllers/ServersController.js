@@ -39,7 +39,7 @@ let ServersController = class ServersController {
     addServer(vkInitDto, serverDto) {
         return this.serversCreator.create(vkInitDto, serverDto);
     }
-    checkServerStatus(vkInitDto, ipDto) {
+    checkServerStatus(vkInitDto, ServerIpDto) {
     }
 };
 __decorate([

@@ -79,6 +79,9 @@ let AppService = class AppService {
             }
         };
     }
+    generateCode(vkInitDto, serverIdDto) {
+        return true;
+    }
 };
 AppService = __decorate([
     common_1.Injectable(),

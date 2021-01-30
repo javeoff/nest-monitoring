@@ -20,4 +20,9 @@ export class AppController {
   initApp(@Headers() vkInitDto: VkInitDto): any {
     return this.appService.initApp(vkInitDto);
   }
+
+  @Get('getVerifyCode')
+  getVerifyCode(@Headers() vkInitDto: VkInitDto, @Query() serverIdDto: {id: number}) {
+    return this.appService.generateCode(vkInitDto, serverIdDto)
+  }
 }

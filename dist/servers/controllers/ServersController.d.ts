@@ -13,7 +13,7 @@ export declare class ServersController {
     getMyServers(vkInitDto: VkInitDto, myServersDto: MyServersDto): Promise<import("../interfaces/IMyServers").default>;
     getServersmethod(): void;
     addServer(vkInitDto: VkInitDto, serverDto: ServerDto): Promise<Boolean>;
-    checkServerStatus(vkInitDto: VkInitDto, ipDto: {
+    checkServerStatus(vkInitDto: VkInitDto, ServerIpDto: {
         ip: number;
     }): void;
 }

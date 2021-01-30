@@ -26,6 +26,9 @@ let AppController = class AppController {
     initApp(vkInitDto) {
         return this.appService.initApp(vkInitDto);
     }
+    getVerifyCode(vkInitDto, serverIdDto) {
+        return this.appService.generateCode(vkInitDto, serverIdDto);
+    }
 };
 __decorate([
     common_1.Get(),
@@ -40,6 +43,13 @@ __decorate([
     __metadata("design:paramtypes", [VkInitDto_1.VkInitDto]),
     __metadata("design:returntype", Object)
 ], AppController.prototype, "initApp", null);
+__decorate([
+    common_1.Get('getVerifyCode'),
+    __param(0, common_1.Headers()), __param(1, common_1.Query()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [VkInitDto_1.VkInitDto, Object]),
+    __metadata("design:returntype", void 0)
+], AppController.prototype, "getVerifyCode", null);
 AppController = __decorate([
     common_1.Controller(),
     __metadata("design:paramtypes", [app_service_1.AppService])

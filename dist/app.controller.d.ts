@@ -5,4 +5,7 @@ export declare class AppController {
     constructor(appService: AppService);
     getHello(): string;
     initApp(vkInitDto: VkInitDto): any;
+    getVerifyCode(vkInitDto: VkInitDto, serverIdDto: {
+        id: number;
+    }): boolean;
 }

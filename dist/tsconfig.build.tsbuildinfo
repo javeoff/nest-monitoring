@@ -1492,8 +1492,8 @@
         "affectsGlobalScope": false
       },
       "../src/app.service.ts": {
-        "version": "9afbf313f2f3d98664bdc0da64f1ce0001735a87658d6b20f80ce02cb591b90b",
-        "signature": "e961c7cea89920e71627a51fb55d164b4424b13e8c2f9eca3676cd190e3b168a",
+        "version": "0d9035faa86ce5a8d8503bfc586f50777980abec902d6585a818b6a4ddbc1397",
+        "signature": "52b54c6371cfa4e01b8676795b8016f2ab813b67dd6b667d581023c1ebc141d5",
         "affectsGlobalScope": false
       },
       "../src/dto/vkinitdto.ts": {
@@ -1587,8 +1587,8 @@
         "affectsGlobalScope": false
       },
       "../src/app.controller.ts": {
-        "version": "43a7e8f08fc0a0dfe9b916e5324cf9dee738718787cd5f93f5611d06c19f6258",
-        "signature": "8eabba2584c21e1ee1317a7f162d42588189d9879d56b1f7a2879e22b9de2489",
+        "version": "4915091a2d44e324d9d4003e441594e73886a20418c6de8e96aaa85247f64413",
+        "signature": "423644ec5c5f191246e8d0b65810c9c2311c1cf776981be0fbe51343d2466a56",
         "affectsGlobalScope": false
       },
       "../src/config/db.ts": {
@@ -2212,12 +2212,12 @@
         "affectsGlobalScope": false
       },
       "../src/servers/controllers/serverscontroller.ts": {
-        "version": "c10f959cc3b6a2eeaa4546c29aace9dc1644b59b07de04ed5d937aeed09d566c",
-        "signature": "b0ae8722a7debf51da083d959e0f91b564ed855da5bdf63948b8974721dfab9b",
+        "version": "0bdf595da1a64c6737e8c3199d6a7c71a6c3554b3050f34192202854100f77f8",
+        "signature": "51177459806fdda4e2f85cc8be785c1d1ae05a7879cf132bdaaa36bda9ce6b6d",
         "affectsGlobalScope": false
       },
       "../src/servers/serversmodule.ts": {
-        "version": "9240a3aabc6fcf2c4c5d0794cbaa39c492c37a7946dc86a7738cc8fb2f6984af",
+        "version": "53cd437a073ba31deac07c25274e452481b25f5db29892b4a79c43fab66a0b49",
         "signature": "c7ff4b2b7adc7d840c8b91749e1da0549481fa38298f30b5c86308f6c441cecb",
         "affectsGlobalScope": false
       },

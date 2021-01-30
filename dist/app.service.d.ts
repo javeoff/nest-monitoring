@@ -22,4 +22,7 @@ export declare class AppService {
     getUser(vk_id: Number): Promise<IUser>;
     addUser(user_info: IUser): Promise<Boolean>;
     initApp(vkInitDto: VkInitDto): Promise<Object>;
+    generateCode(vkInitDto: VkInitDto, serverIdDto: {
+        id: number;
+    }): boolean;
 }

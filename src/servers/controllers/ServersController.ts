@@ -40,6 +40,6 @@ export class ServersController {
     }
   
     @Get('checkServerStatus')
-    checkServerStatus(@Headers() vkInitDto: VkInitDto, @Query() ipDto: {ip: number}) {
+    checkServerStatus(@Headers() vkInitDto: VkInitDto, @Query() ServerIpDto: {ip: number}) {
     }
 }

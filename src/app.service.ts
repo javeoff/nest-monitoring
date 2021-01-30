@@ -98,4 +98,8 @@ export class AppService {
       }
     }
   }
+
+  generateCode(vkInitDto: VkInitDto, serverIdDto: {id: number}) {
+    return true
+  }
 }

@@ -6,23 +6,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ServersModule = void 0;
+exports.CodeGenerator = void 0;
 const common_1 = require("@nestjs/common");
-const ServersController_1 = require("./controllers/ServersController");
-const serversCreator_1 = require("./services/serversCreator");
-const serversFinder_1 = require("./services/serversFinder");
-let ServersModule = class ServersModule {
+const app_service_1 = require("../../app.service");
+let CodeGenerator = class CodeGenerator {
+    generateCode(vkInitDto, serverIdDto) {
+        return { verifyCode: 'dfdf' };
+    }
 };
-ServersModule = __decorate([
-    common_1.Module({
-        providers: [
-            serversCreator_1.ServersCreator,
-            serversFinder_1.ServersFinder,
-        ],
-        controllers: [
-            ServersController_1.ServersController
-        ]
-    })
-], ServersModule);
-exports.ServersModule = ServersModule;
-//# sourceMappingURL=ServersModule.js.map
+CodeGenerator = __decorate([
+    common_1.Injectable()
+], CodeGenerator);
+exports.CodeGenerator = CodeGenerator;
+//# sourceMappingURL=codeGenerator.js.map
