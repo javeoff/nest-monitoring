@@ -47,7 +47,7 @@ export class ReviewsFinder {
         return {
             reviews: {
                 top_reviews,
-                my_review
+                my_review: my_review.length > 0 ? my_review : false
             }
         }
     }
