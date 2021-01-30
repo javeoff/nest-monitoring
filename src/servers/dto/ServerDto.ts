@@ -16,4 +16,5 @@ export class ServerDto {
     tags: string;
     website: String;
     owner_id: Number;
+    vk_group: String;
 }
