@@ -13,7 +13,9 @@ export class ServersCreator {
 
     public async create(vkInitDto: VkInitDto, serverDto: ServerDto): Promise<Boolean> {
         delete serverDto['u']
-        
+
+        // 123
+
         await this.knex('servers').insert({
             ...serverDto,
             tags: JSON.parse(serverDto['tags']) && '',
